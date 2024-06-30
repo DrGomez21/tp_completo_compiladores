@@ -26,7 +26,7 @@ conjunto_siguiente = {
     'ATTRIBUTE-VALUE':['COMA', 'R_LLAVE']
 }
 
-salida = open('traducido.txt', 'w')
+salida = open('traducido.xml', 'w')
 
 class Traductor:
     def __init__(self, tokens):
@@ -44,6 +44,7 @@ class Traductor:
             if self.token_actual.comp_lexico != 'EOF':
                 print(f'Ocurrio un error al final se encontró {self.token_actual.comp_lexico}')
             else:
+                print('Proceso concluido con exito =)')
                 salida.close()
 
     def match(self, token_esperado):
