@@ -14,6 +14,7 @@ def leer_args():
         exit(-1)
 
 if __name__ == "__main__":
-    tokens = lexer('input.txt')
-    p = Traductor(tokens)
-    p.traducir()
+    archivo_fuente = leer_args()
+    tokens = lexer(archivo_fuente)
+    t = Traductor(tokens)
+    t.traducir()
