@@ -6,3 +6,7 @@ comando: pyhton dr.py input.txt
 
 Luego, se genera el archivo de salida 'output.txt'.
 Se imprime en pantalla los errores encontrados.
+
+Alumnos:
+ * Jazmín Maria del Luján Gamarra Benítez
+ * Diego Rubén Gómez Morel
