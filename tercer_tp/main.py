@@ -1,5 +1,4 @@
 from super_dr_lexer import *
-from super_dr_parser import *
 from traductor import *
 from sys import argv
 
