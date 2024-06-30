@@ -2,7 +2,7 @@ import re
 from tabla_simbolos import tabla_de_simbolos
 
 class Token:
-    def init(self, comp_lexico, nro_linea, lexema):
+    def __init__(self, comp_lexico, nro_linea, lexema):
         self.comp_lexico = comp_lexico
         self.nro_linea = nro_linea
         self.lexema = lexema
